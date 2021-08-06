@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Agriculture</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/swiper.min.css">
+  <link rel="stylesheet" href="assets/css/slider_style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+
+<header>
+  <div class="bgGreen">
+    <div class="container topheader ">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="leftSide">
+            <ul>
+              <li><a href="tel:+91 8954894145"> <i class="fas fa-mobile-alt"></i> +91 8954894145 </a></li>
+              <li><a href="mailto:info@apogee.com"><i class="far fa-envelope"></i> info@apogee.com</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="socialIconTop">
+            <ul class="ml-auto" style="width: 170px;">
+              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div>
+
+<style>
+/*  .dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu a::after {
+  transform: rotate(-90deg);
+  position: absolute;
+  right: 6px;
+  top: .8em;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-left: .1rem;
+  margin-right: .1rem;
+}*/
+</style>
+    <div class="mainMenuWrap" id="mainMenuWrap">
+      <div class="mainMenu ">
+        <nav class="navbar navbar-expand-sm navbar-dark">
+          <div class="container px-0">
+            <a class="navbar-brand" href="index.html">
+            <img src="assets/images/logo.png">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html"><i class="fas fa-home"></i></a>
+                </li>
+                <div class="dropdown">
+                  <a class="nav-link dropdown-toggle myDropdownIcon" data-toggle="dropdown">About Us</span></a>
+                  <ul class="dropdown-menu dropDownMainMenu">
+                    <li class="dropdown-submenu">
+                      <a class="subSubMenu" href="about.html">Company Profile</span></a>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a class="subSubMenu" href="about.html#whoWeAre">Who We Are</span></a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="dropdown">
+                  <a class="btn1 btn-default1 nav-link dropdown-toggle myDropdownIcon" data-toggle="dropdown">Products
+                  <span class="caret"></span></a>
+                  <ul class="dropdown-menu dropDownMainMenu">
+                    <li class="dropdown-submenu">
+                      <a class="test dropdownHead" tabindex="-1" href="#">Laser Land Leveller<span class="caret"></span></a>
+                      <ul class="dropdown-menu innerDropdown">
+                        <li><a class="subSubMenu" href="#">Laser Receiver</a></li>
+                        <li><a class="subSubMenu" href="#">Laser Transmitter</a></li>
+                        <li><a class="subSubMenu" href="#">Controller</a></li>
+                        <li><a class="subSubMenu" href="#">Scrapper</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a class="test dropdownHead" tabindex="-1" href="#">Grass Land Leveller <span class="caret"></span></a>
+                      <ul class="dropdown-menu innerDropdown ">
+                        <li><a class="subSubMenu" href="#">Base Station</a></li>
+                        <li><a class="subSubMenu" href="#">Controlling Unit</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a class="test dropdownHead" tabindex="-1" href="#">Auto Steering Rice Transplanter <span class="caret"></span></a>
+                      <ul class="dropdown-menu innerDropdown ">
+                        <li><a class="subSubMenu" href="#">Auto Steering</a></li>
+                        <li><a class="subSubMenu" href="#">Motor</a></li>
+                        <li><a class="subSubMenu" href="#">Controller</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Multimedia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="blogs.html">Blogs</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>             
+              </ul>
+
+              <div>
+                <a href="#enquiryForm" class="myButtonEffect learnMoreBtn" >Enquiry Now</a>
+              </div>
+
+
+            </div>
+          </div>
+        </nav>
+      </div>
+    </div>
+
+  <!-- <div class="mainMenuWrap" id="mainMenuWrap">
+    <div class="mainMenu ">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown link
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="abc.html">Action</a></li>
+                <li><a class="dropdown-item" href="abc.html">Another action</a></li>
+                <li class="dropdown-submenu">
+                  <a class="dropdown-item dropdown-toggle" href="abc.html">Submenu</a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="abc.html">Submenu action</a></li>
+                    <li><a class="dropdown-item" href="abc.html">Another submenu action</a></li>
+
+
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle" href="abc.html">Subsubmenu</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="abc.html">Subsubmenu action</a></li>
+                        <li><a class="dropdown-item" href="abc.html">Another subsubmenu action</a></li>
+                      </ul>
+                    </li>
+                    <li class="dropdown-submenu">
+                      <a class="dropdown-item dropdown-toggle" href="abc.html">Second subsubmenu</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="abc.html">Subsubmenu action</a></li>
+                        <li><a class="dropdown-item" href="abc.html">Another subsubmenu action</a></li>
+                      </ul>
+                    </li>
+
+
+
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div> -->
+</header>
+
+
+<section class="main-slider">
+            <div class="swiper-container thm-swiper__slider" data-swiper-options='{
+               "slidesPerView": 1,
+               "loop": true,
+               "effect": "fade",
+               "autoplay": {
+               "delay": 5000
+               },
+               "navigation": {
+               "nextEl": "#main-slider__swiper-button-next",
+               "prevEl": "#main-slider__swiper-button-prev"
+               }
+               }'>
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                     <div class="image-layer" style="background-image: url(https://ninetheme.com/themes/html-templates/agrikon/assets/images/main-slider/main-slider-1-1.jpg);"></div>
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-xl-7 col-lg-7">
+                              <span class="tagline">Welcome to Agriculture Farm</span>
+                              <h2 class="specialFont"><span>Agriculture</span> <br>
+                                 & Eco Farming
+                              </h2>
+                              <p>There are many of passages of lorem Ipsum, but the majori have <br> suffered alteration
+                                 in some form.
+                              </p>
+                              <a href="#" class="thm-btn myButtonEffect text-white">Discover More</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper-slide">
+                     <div class="image-layer" style="background-image: url(https://ninetheme.com/themes/html-templates/agrikon/assets/images/main-slider/main-slider-1-2.jpg);"></div>
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-xl-7 col-lg-7">
+                              <span class="tagline">Welcome to Agriculture Farm</span>
+                              <h2 class="specialFont"><span>Agriculture</span><br>
+                                 & Eco Farming
+                              </h2>
+                              <p>There are many of passages of lorem Ipsum, but the majori have <br> suffered alteration
+                                 in some form.
+                              </p>
+                              <a href="#" class="thm-btn myButtonEffect text-white">Discover More</a>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+               <div class="main-slider__nav">
+                  <div class="swiper-button-prev" id="main-slider__swiper-button-next"><i class="agrikon-icon-left-arrow"></i></div>
+                  <div class="swiper-button-next" id="main-slider__swiper-button-prev"><i class="agrikon-icon-right-arrow"></i></div>
+               </div>
+            </div>
+         </section>
+
+<style>
+</style>
+
+<section class="SliderBotSec bgGreen1">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-7">
+        <h2 class="text-white" style="font-size: 24px;">CLICK HERE TO CHECK OUT OUR NEW EBOOK</h2>
+        <p class="mb-0 text-white">It is a long established fact that a reader will be distracted</p>
+      </div>
+      <div class="col-md-5">
+        <div class="mt-3 text-right">
+          <a href="#" class="myButtonEffect downloadBtn">Download Brochure &nbsp <i class="fas fa-angle-double-down downLoadIconAnimate"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<section class="aboutSection sectionPadding mt-3">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5" data-aos="fade-right" data-aos-duration="800" data-aos-easing="linear">
+        <div class="aboutImgSec position-relative">
+          <img src="assets/images/about.jpg" class="img-fluid border">
+          <div class="mx-auto experienceBox bgGreen">
+            <h2 class="text-white">36+</h2>
+            <h3 class="text-white">Years of experience</h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-6" data-aos="fade-left" data-aos-duration="800" data-aos-easing="linear">
+        <div class="sectionHeadAbout text-left">
+          <h5>WELCOME TO APOGEE</h5>
+          <h2 class="text-left textGreen">Better Agriculture for Better Future</h2>
+          <h3 class="textYellow specialFont">We have 30 years of agriculture and eco farming experience globaly</h3>
+        </div>
+        <div class="aboutDesc">
+          <p class="text-justify mt-3">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. <!-- Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. --></p>
+          <!-- <p class="text-justify">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here'.</p> -->
+          <a type="submit" class="myButtonEffect learnMoreBtn" >Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+<section class="productSection sectionPadding">
+  <div class="sectionHead mb-5">
+      <h2 class="" style="margin-bottom: 33px;">What We’re Offering</h2>
+      <p class="text-center" >There are many variations of passages of lorem ipsum <br> available but the majority have suffered alteration in some</p>
+  </div><br>
+  <div class="container marginBottom productContainer"  data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="linear">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row productBoxWrap" >
+            <div class="col-md-7">
+              <div class="productContent">
+                <h2>Laser Land </h2>
+                <p class="prodDesc text-justify">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,   </p>
+                <div class="">
+                  <a type="submit" class="myButtonEffect learnMoreBtn" >Download Catalogue</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div>
+                <img src="assets/images/product1.png" class="img-fluid">
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container marginBottom productContainer" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="linear" >
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row productBoxWrap" >
+            <div class="col-md-5">
+              <div>
+                <img src="assets/images/product1.png" class="img-fluid">
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="productContent">
+                <h2>Grass Land Leveller </h2>
+                <p class="prodDesc text-justify">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,   </p>
+                <div class="">
+                  <a type="submit" class="myButtonEffect learnMoreBtn" >Download Catalogue</a>
+                </div>
+              </div>
+            </div>            
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container marginBottom productContainer" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="linear" >
+    <div class="row">
+      <div class="col-md-12">
+        <div class="row productBoxWrap" >
+            <div class="col-md-7">
+              <div class="productContent">
+                <h2>Auto Steering Transplant </h2>
+                <p class="prodDesc text-justify">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary,   </p>
+                <div class="">
+                  <a type="submit" class="myButtonEffect learnMoreBtn" >Download Catalogue</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-5">
+              <div>
+                <img src="assets/images/product1.png" class="img-fluid">
+              </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="text-center">
+      <a href="#" class="seeAllProd">See all product </a> &nbsp&nbsp<span class="clickArrowAnimate"> >> </span>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<section class="whyChooseSection sectionPadding position-relative" >
+  <div class="clipPath" ></div>
+  <div class="whyChooseSectionInner">
+    <div class="sectionHead mb-5">
+        <h2 class="" style="margin-bottom: 33px;">Why Choose Us</h2>
+        <p class="text-center" >There are many variations of passages of lorem ipsum <br> available but the majority have suffered alteration in some</p>
+    </div><br>
+    <div class="container marginBottom"  >
+      <div class="row">
+        <div class="col-md-3 marginBottom" data-aos="zoom-in-up" data-aos-duration="300" data-aos-easing="linear">
+          <div class="card">
+            <img class="mx-auto" src="assets/images/network.png" width="70">
+            <div class="card-body text-center">
+              <h4 class="card-title textGreen">OUR NETWORK</h4>
+              <p class="card-text" style="font-size: 15px;">Levelling, smoothing and shaping the field surface is as important to the surface system as the design of laterals, manifolds etc.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 marginBottom" data-aos="zoom-in-up" data-aos-duration="600" data-aos-easing="linear">
+          <div class="card">
+            <img class="mx-auto" src="assets/images/quality.png" width="70">
+            <div class="card-body text-center">
+              <h4 class="card-title textGreen">QUALITY PRODUCTS</h4>
+              <p class="card-text" style="font-size: 15px;">Levelling, smoothing and shaping the field surface is as important to the surface system as the design of laterals, manifolds etc.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 marginBottom" data-aos="zoom-in-up" data-aos-duration="900" data-aos-easing="linear">
+          <div class="card">
+            <img class="mx-auto" src="assets/images/on-time.png" width="70">
+            <div class="card-body text-center">
+              <h4 class="card-title textGreen">ON TIME DELIVERY</h4>
+              <p class="card-text" style="font-size: 15px;">Levelling, smoothing and shaping the field surface is as important to the surface system as the design of laterals, manifolds etc.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3 marginBottom" data-aos="zoom-in-up" data-aos-duration="1000" data-aos-easing="linear">
+          <div class="card">
+            <img class="mx-auto" src="assets/images/24-hours-support.png" width="70">
+            <div class="card-body text-center">
+              <h4 class="card-title textGreen">24*7 SUPPORT</h4>
+              <p class="card-text" style="font-size: 15px;">Levelling, smoothing and shaping the field surface is as important to the surface system as the design of laterals, manifolds etc.</p>
+            </div>
+          </div>
+        </div>        
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+<section class="clientSection sectionPadding" >
+  <div class="container">
+    <div class="sectionHead">
+      <h2>Our Gallery</h2>
+    </div>
+    <div class="owl-carousel clientSlider owl-theme">
+      <div class="item"><img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557204140/banner_12.jpg" /> </div>
+      <div class="item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557204172/banner_2.jpg" /> </div>
+      <div class="item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557204663/park-4174278_640.jpg" /> </div>
+      <div class="item"> <img src="http://www.urbanui.com/fily/template/images/carousel/banner_3.jpg" /> </div>
+      <div class="item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557204172/banner_2.jpg" /> </div>
+      <div class="item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557204663/park-4174278_640.jpg" /> </div>
+      <div class="item"> <img src="http://www.urbanui.com/fily/template/images/carousel/banner_2.jpg" /> </div>
+      <div class="item"> <img src="https://res.cloudinary.com/dxfq3iotg/image/upload/v1557204140/banner_12.jpg" /> </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="testimonialSection" >
+  <div class="bgBlackOverlay sectionPadding" style="background-color:rgba(37, 89, 70, 0.9);height: 100%;">
+    <div class="container" style="width:700px;margin: 0 auto;">
+      <div class="sectionHead">
+        <h2 class="text-white">What Our Client Say's</h2>
+      </div>
+      <div class="owl-carousel testimonialSlider owl-theme">
+        <div class="item" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="linear">
+          <div>
+            <div class="personImg text-center">
+              <img src="assets/images/person.jpg"/>
+            </div>
+            <div class="feedbackDesc text-center">
+              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+            </div>
+            <div class="review">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <div class="authorInfo mt-3">
+              <h3>N.R. Narayana Murthy</h3>
+              <p>( Chairman of Infosys )</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div>
+            <div class="personImg text-center">
+              <img src="assets/images/person.jpg"/>
+            </div>
+            <div class="feedbackDesc text-center">
+              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+            </div>
+            <div class="review">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <div class="authorInfo mt-3">
+              <h3>N.R. Narayana Murthy</h3>
+              <p>( Chairman of Infosys )</p>
+            </div>
+          </div>
+        </div>
+        <div class="item">
+          <div>
+            <div class="personImg text-center">
+              <img src="assets/images/person.jpg"/>
+            </div>
+            <div class="feedbackDesc text-center">
+              <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>
+            </div>
+            <div class="review">
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star checked"></span>
+              <span class="fa fa-star"></span>
+              <span class="fa fa-star"></span>
+            </div>
+            <div class="authorInfo mt-3">
+              <h3>N.R. Narayana Murthy</h3>
+              <p>( Chairman of Infosys )</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- <section class="contactSection sectionPadding">
+  <div class="container">
+    <div class="sectionHead mb-5">
+      <h2 class="">Contact Us</h2>
+      <p class="text-center">We  are available for Sales, Service & Support 24x7. Please Feel free to send in your Enquiries, Feedback or Complaints. We’ll get back to you shortly.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="contactLeft">
+          <div class="bgGreenOverlay">
+            <h3 class="text-white">Contact Information</h3>
+            <p>We  are available for Sales, Service & Support 24x7.</p>
+            <div>
+              <ul>
+                <li class="mb-1"><a href="#"><strong>Utter Pradesh</strong></a> </li>
+                <li class="mb-1"><a href="tel:+91 8954894145" ><i class="fas fa-mobile-alt"></i> +91 8954894145</a></li>
+                <li class="mb-1"><a href="#"><i class="fas fa-map-marker-alt"></i> 619, Opp. New Mandi Yard, Garh Road, Hapur (UP) 245101</a></li>
+              </ul>
+              <hr class="bg-white">
+              <ul>
+                <li><a href="#"><strong>Gujarat</strong></a> </li>
+                <li><a href="tel:+91 7624002261" ><i class="fas fa-mobile-alt"></i> +91 7624002261</a></li>
+                <li><a href="#"><i class="fas fa-map-marker-alt"></i> First Floor, Shri Ram Complex, #1401, Kailashpati Chokdi, GIDC, Vitthal Udyognagar, Anand (Gujarat) 388121 </a></li>
+              </ul>
+              <hr class="bg-white">
+              <ul>
+                <li><a href="#"><strong>Madhya Pradesh</strong></a> </li>
+                <li><a href="tel:+91 7624002266" ><i class="fas fa-mobile-alt"></i> +91 7624002266</a></li>
+                <li><a href="#"><i class="fas fa-map-marker-alt"></i> Shanti Market, New Bypass Road, Near Imalia, Bhopal (MP)</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8">
+        <form action="#" class="myForm queryForm">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="email"> Name: <span class="text-danger">*</span></label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="email"> E-mail: <span class="text-danger">*</span></label>
+                <input type="email" class="form-control">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="email"> Contact Number: <span class="text-danger">*</span></label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="email"> City / Village: <span class="text-danger">*</span></label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="email"> State / Province: <span class="text-danger">*</span></label>
+                <input type="text" class="form-control">
+              </div>
+
+              <div class="form-group">
+                <label for="email"> Country / Region: <span class="text-danger">*</span></label>
+                <input type="text" class="form-control">
+              </div>
+
+              <div class="form-group">
+                <label for="email"> City / Village: <span class="text-danger">*</span></label>
+                <input type="text" class="form-control">
+              </div>
+
+            </div>
+            <div class="col-md-6">
+              <div class="form-group">
+                <label for="email">Subject:</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="email"> Your Message: <span class="text-danger">*</span></label>
+                <textarea class="form-control" rows="4" style="min-height: 125px;"></textarea>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <button type="submit" class="btn btn-default myButtonEffect">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section> -->
+
+
+
+
+
+<section class="contactSection sectionPadding" id="enquiryForm" >
+  <div class="container">
+    <div class="sectionHead mb-5">
+      <h2 class="">How Can We help you</h2>
+      <p class="text-center">We  are available for Sales, Service & Support 24x7. Please Feel free to send in your Enquiries, Feedback or Complaints. We’ll get back to you shortly.</p>
+    </div>
+    <div class="row">
+      <div class="col-md-4" data-aos="fade-right" data-aos-duration="800" data-aos-easing="linear">
+        <div class="contactLeft">
+          <div class="bgGreenOverlay text-center">
+            <h3 class="text-white specialFont" style="font-size:50px;">Order Now</h3>
+            <p>Call us for booking information</p>
+            <hr class="bg-white">
+            <h3 class="specialFont text-white" style="font-size:30px;"> +91 8954894145</a></h3>
+            <h3 class="specialFont text-white" style="font-size:30px;"> +91 7624002261</a></h3>
+            <h3 class="specialFont text-white" style="font-size:30px;"> +91 7624002266</a></h3>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-8" data-aos="fade-left" data-aos-duration="800" data-aos-easing="linear">
+        <div class="alert alert-success bgGreen text-white fontFourteen">
+          <strong>Success!</strong> Your message has been sent successfully. We contact to you soon..
+        </div>
+        <div class="alert alert-danger bgRed text-white fontFourteen">
+          <strong>Sorry!</strong> Your message has not been sent. Please try again.
+        </div>
+        <form action="#" class="myForm queryForm">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="email"> Name: <span class="text-danger">*</span></label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="email"> E-mail: <span class="text-danger">*</span></label>
+                <input type="email" class="form-control">
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="form-group">
+                <label for="email"> Contact Number: <span class="text-danger">*</span></label>
+                <input type="text" class="form-control">
+              </div>
+            </div>
+            <div class="col-md-12">
+              <div class="form-group">
+                <label for="email"> Your Message: <span class="text-danger">*</span></label>
+                <textarea class="form-control" rows="4" style="min-height: 95px;"></textarea>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <button type="submit" class="btn btn-default myButtonEffect">Submit</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<footer class="bgGreen">
+  <div class="container">
+    <div class="callWhatsapp">
+      <a href="https://api.whatsapp.com/send?phone=+91 8954894145&amp;Hii" class="whatsapp-fixed" target="_blank">
+        <img src="assets/images/whatsapp-icon.png" class="contact-whatsapp">
+      </a>
+      <!-- <a href="tel:+91 8954894145" class="btn-sonar" >
+         <img src="assets/images/call-icon.png" >
+      </a> -->
+    </div>    
+    <div class="row">
+      <div class="col-md-3" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="linear">
+        <div class="footHead">
+          <h2 class="textGreen1">About Company</h2>
+        </div>
+        <div class="footDesc" style="margin-top: 30px;">
+          <p>On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue</p>
+        </div>
+      </div>
+      <div class="col-md-3" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="linear">
+        <div class="footHead">
+          <h2 class="textGreen1">Useful Links</h2>
+        </div>
+        <div class="footDesc" style="margin-top: 27px;">
+          <ul>
+            <li><a href="#">Laser Receiver</a></li>
+            <li><a href="#">Laser Transmitter</a></li>
+            <li><a href="#">Controller</a></li>
+            <li><a href="#">Scrapper</a></li>
+            <li><a href="#">Base Station</a></li>
+            <li><a href="#">Controlling Unit</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="linear">
+        <div class="footHead">
+          <h2 class="textGreen1">Get in Touch</h2>
+        </div>
+        <div class="footDesc" style="margin-top: 27px;">
+          <ul>
+            <li class="mb-1"><a href="#"><strong>Utter Pradesh</strong></a> </li>
+            <li class="mb-1"><a href="tel:+91 8954894145" ><i class="fas fa-mobile-alt"></i> +91 8954894145</a></li>
+            <li class="mb-1"><a href="mailto:info@apogee.com"><i class="far fa-envelope"></i> info@apogee.com</a></li>
+            <li class="mb-1"><a href="#"><i class="fas fa-map-marker-alt"></i> 619, Opp. New Mandi Yard, <br> Garh Road, Hapur (UP) 245101</a></li>
+
+            <!-- <li><a href="#"><strong>Gujarat</strong></a> </li>
+            <li><a href="tel:+91 8954894145" ><i class="fas fa-mobile-alt"></i> +91 8954894145</a></li>
+            <li><a href="#"><i class="fas fa-map-marker-alt"></i> First Floor, Shri Ram Complex, #1401, Kailashpati Chokdi, GIDC, Vitthal Udyognagar, Anand (Gujarat) 388121 </a></li>
+
+            <li><a href="#"><strong>Madhya Pradesh</strong></a> </li>
+            <li><a href="tel:+91 8954894145" ><i class="fas fa-mobile-alt"></i> +91 8954894145</a></li>
+            <li><a href="#"><i class="fas fa-map-marker-alt"></i> Shanti Market, New Bypass Road, Near Imalia, Bhopal (MP)</a></li> -->
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-3" data-aos="zoom-in-up" data-aos-duration="800" data-aos-easing="linear">
+        <div class="footHead">
+          <h2 class="textGreen1">Subscribe for More Info</h2>
+        </div>
+        <div class="footDesc" style="margin-top: 30px;">
+          <form action="/action_page.php">
+            <div class="form-group">
+              <label for="email">Email address:</label>
+              <input type="email" class="form-control" placeholder="Enter your email" id="email">
+            </div>
+            <button type="submit" class="btn btn-default w-100 myButtonEffect">Submit</button>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container footerBottomSec" style="">
+    <div class="row">
+      <div class="col-md-4"></div>
+      <div class="col-md-4">
+        <div class="footerSocialIcon">
+          <ul class="ml-auto" >
+            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <p>2021 &copy; Apogee Precision LLP. All Rights Reserved</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="assets/js/owl.carousel.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/js/swiper.min.js"></script>
+    <script src="assets/js/theme.js"></script>
+
+
+</body>
+</html>
+<script>
+  AOS.init();
+</script>
+<script>
+$(document).ready(function(){
+  $('.dropdown-submenu a.dropdownHead').on("click", function(e){
+    $(this).next('ul').toggle();
+    $(this).siblings().find('.innerDropdown').toggle();
+    $(this).show();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+$('.dropdownHead').on("click", function(){
+     $(".dropdownHead").siblings(".innerDropdown").hide();
+  });
+</script>
+
+<script>
+  // $('.dropdown-menu a.dropdown-toggle').on('hover', function(e) {
+// $(".dropdown-menu a.dropdown-toggle").hover(function(e){
+//   $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
+//   if (!$(this).next().hasClass('show')) {
+//     $(this).parents('.dropdown-menu').first().find('.show').removeClass('show');
+//   }
+//   var $subMenu = $(this).next('.dropdown-menu');
+//   $subMenu.toggleClass('show');
+
+
+//   $(this).parents('li.nav-item.dropdown.show').on('hidden.bs.dropdown', function(e) {
+//     $('.dropdown-submenu .show').removeClass('show');
+//   });
+
+
+//   return false;
+// });
+</script>
+
+<script>
+$('.clientSlider').owlCarousel({
+    loop:true,
+    margin:10,
+    autoplay:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:2,
+            nav:false
+        },
+        1000:{
+            items:2,
+            nav:true,
+            dots:false
+        }
+    }
+})
+</script>
+
+<script>
+  $('.testimonialSlider').owlCarousel({
+    loop:true,
+    margin:10,
+    dots:false,
+    autoplay:true,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:1,
+            nav:false
+        },
+        1000:{
+            items:1,
+            nav:true,
+            dots:false
+        }
+    }
+})
+</script>
+
+<script>
+window.onscroll = function() {myFunction()};
+var navbar = document.getElementById("mainMenuWrap");
+var myNavsticky = navbar.offsetTop;
+function myFunction() {
+  if (window.pageYOffset >= myNavsticky) {
+    navbar.classList.add("myNavsticky")
+  } else {
+    navbar.classList.remove("myNavsticky");
+  }
+}
+</script>
+
+<script>
+$(document).on("click", '[data-toggle="lightbox"]', function(event) {
+  event.preventDefault();
+  $(this).ekkoLightbox();
+});
+</script>
